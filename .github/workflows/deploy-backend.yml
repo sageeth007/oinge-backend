@@ -30,4 +30,5 @@ jobs:
           app-name: 'oinge-node-backend'
           # slot-name: 'production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: .
 
